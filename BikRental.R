@@ -10,7 +10,7 @@ lapply(x, require, character.only = TRUE)
 rm(x)
 
 #set current working directory
-setwd("C:/Users/Smit/Desktop/DataScience/Project")
+setwd("/DataScience/Project")
 
 bike_data = read.csv("day.csv")
 
